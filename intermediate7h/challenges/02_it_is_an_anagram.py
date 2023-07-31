@@ -9,10 +9,10 @@
  - Two words that are exactly the same are not anagrams.
  ''' 
 
-def is_anagram(world_one, world_two):
-    if world_one.lower() == world_two.lower():
+def is_anagram(word_one, word_two):
+    if word_one.lower() == word_two.lower():
         return False
-    return sorted(world_one.lower()) == sorted(world_two.lower())
+    return sorted(word_one.lower()) == sorted(word_two.lower())
     
-print(is_anagram("Amor", "Roma"))    
+print(is_anagram(input("First word: "), input("Second word: ")))    
     
