@@ -47,8 +47,9 @@ from random import random
 # ValueError
 
 my_int = int("10")
-# my_int = int("10 años") # Uncomment for error
+# my_int = int("10 years") # Uncomment for error
 print(type(my_int))
 
 # ZeroDivisionError
 print(4/2)
+print(4/0) # Uncomment for error
